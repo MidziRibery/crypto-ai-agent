@@ -59,9 +59,7 @@ npm run dev
 ## 💽 API Endpoints
 | Method | Endpoint | Description |
 |--------|----------|-------------|
-| `GET` | `/tweets` | Fetches latest tweets |
-| `POST` | `/summarize` | Summarizes tweet content |
-| `POST` | `/authenticate` | User authentication |
+| `GET` | `/crypto-news` | Fetches latest cryptocurrency news and summaries |
 
 ---
 
