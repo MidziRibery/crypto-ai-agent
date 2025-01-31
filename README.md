@@ -6,7 +6,6 @@ An **AI-powered crypto intelligence agent** that fetches real-time cryptocurrenc
 ✅ Uses **AI-powered NLP** to summarize key insights 🤖  
 ✅ Stores processed data in **Firebase** 🔥  
 ✅ Web interface for easy access 🌐  
-✅ Secure authentication for user access 🔒  
 
 ---
 
