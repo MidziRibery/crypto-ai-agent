@@ -1,0 +1,44 @@
+# 🚀 Universal Git Ignore for Backend & Frontend
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+### 🟢 Frontend (React) ###
+/frontend/node_modules/
+/frontend/.pnp
+/frontend/.pnp.js
+/frontend/.next/
+/frontend/.cache/
+/frontend/build/
+/frontend/dist/
+/frontend/.env.local
+/frontend/.DS_Store
+
+### 🟢 Backend (Python) ###
+/backend/__pycache__/
+/backend/*.pyc
+/backend/.venv/
+/backend/.pytest_cache/
+/backend/chatbot-env/
+/backend/firebase_key.json  # Firebase credentials
+chatbot-env/  # Virtual environment (outside backend too)
+
+/backend/.DS_Store  # macOS system files
+
+### 🟢 Firebase & Env Variables ###
+/firebase_key.json  # Ensure it's ignored globally
+/.env  # Root environment files
+/backend/.env  # Backend-specific env
+/frontend/.env  # Frontend-specific env
+
+### 🟢 Logs & Debug ###
+/npm-debug.log*
+/yarn-debug.log*
+/yarn-error.log*
+/coverage
+/logs/
+/*.log
+/backend/*.log
+/frontend/*.log
+
+### 🟢 OS-Specific Files ###
+.DS_Store  # macOS junk
+Thumbs.db  # Windows junk
